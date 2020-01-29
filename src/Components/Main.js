@@ -22,7 +22,7 @@ class Main extends Component {
 						</div>
 					)}/>
 					<Route path="/addPhoto" render={({history}) => (
-						<AddPhoto {...this.props} onHistory={history} />
+						<AddPhoto {...this.props} />
 					)} />
 				</div>
 	}
