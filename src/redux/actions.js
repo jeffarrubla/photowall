@@ -14,4 +14,9 @@ export function addPost(post){
 	}
 }
 
-//adding
+export function addComment(comment) {
+	return {
+		type: 'ADD_COMMENT',
+		comment
+	}
+}
