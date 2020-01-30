@@ -30,6 +30,8 @@ export function startRemovingPost(index,id) {
 	}
 }
 
+
+
 export function removePost(index){
 	return {
 		type: 'REMOVE_POST',
